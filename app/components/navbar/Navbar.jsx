@@ -6,14 +6,14 @@ import { BiSolidMessage } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className='bg-[#17181B] py-10 px-5 absolute top-1/2 right-10 translate-y-[-50%] rounded-lg'>
-      <List className='text-gray-500 text-2xl'>
-        <ListItem className='my-4 hover:text-white duration-100' path='/' text={<FaHome/>}/>
-        <ListItem className='my-4 hover:text-white duration-100' path='/about' text={<FaUser />}/>
-        <ListItem className='my-4 hover:text-white duration-100' path='/portfolio' text={<FaBriefcase />}/>
-        <ListItem className='my-4 hover:text-white duration-100' path='/contact' text={<BiSolidMessage/>}/>
-        <ListItem className='my-4 hover:text-white duration-100' text={<FaHome/>}/>
-        <ListItem className='my-4 hover:text-white duration-100' text={<FaHome/>}/>
+    <nav className='bg-[#17181B] absolute w-full sm:w-0 py-3 px-5 sm:py-0 sm:px-0 bottom-0 right-1/2 translate-x-1/2 sm:bottom-1/2 sm:right-20 sm:translate-y-1/2 rounded-lg z-50'>
+      <List className='text-white text-xl flex sm:block justify-center items-center gap-10 sm:gap-0'>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/' text={<FaHome/>}/>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/about' text={<FaUser />}/>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/portfolio' text={<FaBriefcase />}/>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/contact' text={<BiSolidMessage/>}/>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' text={<FaHome/>}/>
+        <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' text={<FaHome/>}/>
       </List>
     </nav>
   )
