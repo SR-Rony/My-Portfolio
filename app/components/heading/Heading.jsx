@@ -1,9 +1,9 @@
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
-const Heading = ({text,className}) => {
+const Heading = ({text,className,span}) => {
   return (
-    <h2 className={twMerge("font-bold",className)}>{text}</h2>
+    <h2 className={twMerge("font-bold",className)}>{text}<span className='text-praimary'>{span}</span></h2>
   )
 }
 

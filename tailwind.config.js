@@ -16,7 +16,7 @@ module.exports = {
         'praimary': '#0791CA',
       },
       maxWidth: {
-        'container': '1300px',
+        'container': '1200px',
       },
     },
   },
