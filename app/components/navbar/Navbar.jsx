@@ -6,7 +6,7 @@ import { BiSolidMessage } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className='bg-[#17181B] absolute w-full sm:w-0 py-3 px-5 sm:py-0 sm:px-0 bottom-0 right-1/2 translate-x-1/2 sm:bottom-1/2 sm:right-20 sm:translate-y-1/2 rounded-lg z-50'>
+    <nav className='bg-[#17181B] fixed w-full sm:w-9 py-3 px-5 sm:py-5 sm:px-2 bottom-0 right-1/2 translate-x-1/2 sm:bottom-1/2 sm:right-10 sm:translate-y-1/2 rounded-lg z-50'>
       <List className='text-white text-xl flex sm:block justify-center items-center gap-10 sm:gap-0'>
         <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/' text={<FaHome/>}/>
         <ListItem className='my-0 sm:my-5 hover:text-praimary duration-100' path='/about' text={<FaUser />}/>
